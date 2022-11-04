@@ -1,0 +1,1 @@
+docker run --rm -v `pwd`:/root/.cache/ -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy image 0908887875/jenkins-docker:lts
